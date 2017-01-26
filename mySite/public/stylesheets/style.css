@@ -1,5 +1,5 @@
 body {
-  padding: 50px;
+  padding: 20px;
   margin-left: 8em;
   margin-right: 8em;
   font-family: 'Lato', sans-serif;
@@ -7,9 +7,9 @@ body {
 
 .bod {
   /*background-image: url('/images/andrewspic.jpg');*/
-  padding: 2em;
-  border-bottom: 1.5px solid black;
-  border-top: 1.5px solid black;
+  padding: 1em;
+  border-bottom: 1.5px solid #A9A9A9;
+  border-top: 1.5px solid #A9A9A9;
 }
 
 a {
@@ -58,4 +58,8 @@ table {
 td{
   text-align: left;
   vertical-align: top;
+}
+
+footer{
+  margin-top: 1.5em;
 }
