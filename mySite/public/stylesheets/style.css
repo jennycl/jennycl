@@ -12,9 +12,17 @@ body {
   border-top: 1.5px solid #A9A9A9;
 }
 
-a {
-  color: #00B7FF;
+.name a:link, .name a:visited, .name a:active{
+  font-size: 1.5em;
+  color: black;
 }
+
+.name a:hover{
+  font-size: 1.5em;
+  color: #ffffff;
+  background-color: red;
+}
+
 
 ul{
   list-style-type: none;
@@ -26,9 +34,6 @@ ul{
   margin-bottom: 2em;
 }
 
-.name {
-  font-size: 3em;
-}
 
 li a{
     padding: 8px;
@@ -43,11 +48,14 @@ li a{
 }
 
 a:link, a:visited{
-    text-decoration: none;
+  text-decoration: none;
+  color: #00B7FF;
 }
 
 a:hover, a:active{
-  color: #0000ff;
+  color: #ffffff;
+  /*background-color: #01FEE9;*/
+  background-color: blue;
   font-style: oblique;
 }
 
