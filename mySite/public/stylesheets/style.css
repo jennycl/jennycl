@@ -14,13 +14,13 @@ body {
 
 .name a:link, .name a:visited, .name a:active{
   font-size: 1.5em;
-  color: black;
+  color: #2800D8;
 }
 
 .name a:hover{
   font-size: 1.5em;
   color: #ffffff;
-  background-color: red;
+  background-color: #2800D8;
 }
 
 
@@ -47,16 +47,16 @@ li a{
   display: inline;
 }
 
-a:link, a:visited{
+.navBar a:link, .navBar a:visited{
   text-decoration: none;
   /*color: #00B7FF;*/
-  color: #2800D8;
+  color: #FA1E64;
 }
 
-a:hover, a:active{
+.navBar a:hover, .navBar a:active{
   color: #ffffff;
   /*background-color: #01FEE9;*/
-  background-color: #2800D8;
+  background-color: #FA1E64;
   font-style: oblique;
 }
 
@@ -71,4 +71,18 @@ td{
 
 footer{
   margin-top: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #2800D8;
+}
+
+a:link, a:active{
+  color: #2800D8;
+}
+
+a:hover{
+  color: #ffffff;
+  background-color: #2800D8;
 }
