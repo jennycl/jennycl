@@ -49,13 +49,14 @@ li a{
 
 a:link, a:visited{
   text-decoration: none;
-  color: #00B7FF;
+  /*color: #00B7FF;*/
+  color: #2800D8;
 }
 
 a:hover, a:active{
   color: #ffffff;
   /*background-color: #01FEE9;*/
-  background-color: blue;
+  background-color: #2800D8;
   font-style: oblique;
 }
 
